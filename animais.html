@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Comunicação Alternativa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+  <!-- Colocar icone no topo -->
+	<link rel="icon" id="favicon" href="img/iconSPIE.png" type="image/z-icon">
+
+	<!-- Estilos -->
+	<link rel="stylesheet" href="css/spieccs.css">	
+
+	</head>
+<body>
+
+
+			
+	<nav class="navbar navbar-default navbar-reprograma">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand">
+					<img id="navbar-brand-spie" src="" alt=""></a>
+				
+				<button class="navbar-toggle glyphicon glyphicon-menu-hamburger"
+				data-toggle="collapse" data-target="#navbar-spie"></button>
+			</div>
+		<ul id="navbar-spie" class="nav navbar-nav navbar-right collapse navbar-collapse">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="sentimentos.html">Sentimentos</a></li>
+			<li><a href="simounao.html">Sim ou Não</a></li>
+			<li><a href="brincar.html">Brincadeiras</a></li>
+			<li><a href="lugares.html">Lugares</a></li>
+			<li><a href="comida.html">Comidas</a></li>
+			<li class="active"><a href="animais.html">Animais</a></li>
+			<li><a href="musica.html">Musicas</a></li>
+			<li><a href="cores.html">Cores</a></li>
+			<li><a href="formas.html">Formas</a></li>
+			<li><a href="higiene.html">Higiene</a></li>
+			<li><a href="numeros.html">Numeros</a></li>
+			<li><a href="letras.html">Letras</a></li>	
+			</ul>
+
+			</div>
+	</nav>
+	
+		<div class="container">
+		
+		<!--SIM-->
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/cachorro.jpg" alt="" style="width:80%" onclick="cachorro()">
+					<h3>CACHORRO</h3>
+				</div>
+		<!--NAO-->
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/gato.jpg" alt="" style="width:80%" onclick="gato()">
+					<h3>GATO</h3>
+				</div>
+		<!--NAO-->
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/coelho.jpg" alt="" style="width:80%" onclick="coelho()">
+					<h3>COELHO</h3>
+				</div>
+			</div>
+			</br></br></br>
+
+		<!--SIM-->
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/passarinho.jpg" alt="" style="width:80%" onclick="passarinho()">
+					<h3>PASSARINHO</h3>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/leao.jpg" alt="" style="width:80%" onclick="leao()">
+					<h3>LEÃO</h3>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/girafa.jpg" alt="" style="width:80%" onclick="girafa()"></a>
+					<h3>GIRAFA</h3>
+				</div>
+			</div>
+			</br></br></br>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/elefante.jpg" alt="" style="width:80%" onclick="elefante()">
+					<h3>ELEFANTE</h3>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/macaco.jpg" alt="" style="width:80%" onclick="macaco()">
+					<h3>MACACO</h3>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/cavalo.jpg" alt="" style="width:80%" onclick="cavalo()"></a>
+					<h3>CAVALO</h3>
+				</div>
+			</div>
+			</br></br></br>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/urso.jpg" alt="" style="width:80%" onclick="urso()">
+					<h3>URSO</h3>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/peixe.jpg" alt="" style="width:80%" onclick="peixe()">
+					<h3>PEIXE</h3>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img class="img-circle" src="img/tigre.jpg" alt="" style="width:80%" onclick="tigre()">
+					<h3>TIGRE</h3>
+				</div>
+			</div>
+			</br></br></br>
+
+
+			
+			<div class="row">
+
+				<div class="col-sm-12 text-center">
+					<a href="index.html"><img class="img-circle" src="img/voltar.jpg" alt="" style="width:10%"></a>
+					<h3>Voltar</h3>
+				</div>
+
+
+			</div>
+			
+			
+			
+			
+		</div>	
+
+<Script Language="JavaScript">		
+
+<!--
+function cachorro(){
+    var audio1 = new Audio();
+    audio1.src = "som/cachorro.ogg";
+    audio1.play();
+}
+function gato(){
+    var audio1 = new Audio();
+    audio1.src = "som/gato.ogg";
+    audio1.play();
+}
+function coelho(){
+    var audio1 = new Audio();
+    audio1.src = "som/coelho.ogg";
+    audio1.play();
+}
+function passarinho(){
+    var audio1 = new Audio();
+    audio1.src = "som/passarinho.ogg";
+    audio1.play();
+}
+function leao(){
+    var audio1 = new Audio();
+    audio1.src = "som/leao.ogg";
+    audio1.play();
+}
+function girafa(){
+    var audio1 = new Audio();
+    audio1.src = "som/girafa.ogg";
+    audio1.play();
+}
+function elefante(){
+    var audio1 = new Audio();
+    audio1.src = "som/elefante.ogg";
+    audio1.play();
+}
+function macaco(){
+    var audio1 = new Audio();
+    audio1.src = "som/macaco.ogg";
+    audio1.play();
+}
+function urso(){
+    var audio1 = new Audio();
+    audio1.src = "som/urso.ogg";
+    audio1.play();
+}
+function cavalo(){
+    var audio1 = new Audio();
+    audio1.src = "som/cavalo.ogg";
+    audio1.play();
+}
+function peixe(){
+    var audio1 = new Audio();
+    audio1.src = "som/peixe.ogg";
+    audio1.play();
+}
+function tigre(){
+    var audio1 = new Audio();
+    audio1.src = "som/tigre.ogg";
+    audio1.play();
+}
+
+//-->
+</script>		
+</body>
+</html>
+
+
+
+
+<img src="" onclick="TocarMusica()" />
+
+
